@@ -11,8 +11,8 @@ html {
   box-sizing: border-box;
 
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr 1fr 5fr 1fr;
+  grid-template-columns: 150px 600px;
+  grid-template-rows: 150px 150px 600px 150px;
   gap: 15px;
 }
 
