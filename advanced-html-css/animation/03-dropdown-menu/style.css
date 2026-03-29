@@ -30,3 +30,17 @@ ul.dropdown-menu li:hover {
 }
 
 
+.dropdown-menu {
+  transform-origin: top;
+  animation: bounce-in 700ms ease-in-out;
+}
+
+@keyframes bounce-in {
+  from {
+    transform: scaleY(0);
+  }
+
+  50% {
+    transform: scaleY(1.2);
+  }
+}
